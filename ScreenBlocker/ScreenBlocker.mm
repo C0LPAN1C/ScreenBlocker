@@ -28,7 +28,7 @@
                       frame:(NSRect) frame
                      screen:(NSScreen *) screen
 {
-    [window setBackgroundColor:[NSColor whiteColor]];
+    [window setBackgroundColor:[NSColor blackColor]];
     [window setCollectionBehavior:  NSWindowCollectionBehaviorStationary |
                                     NSWindowCollectionBehaviorCanJoinAllSpaces |
                                     NSWindowCollectionBehaviorFullScreenAuxiliary |

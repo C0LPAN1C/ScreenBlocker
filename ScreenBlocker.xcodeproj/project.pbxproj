@@ -100,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1100;
-				ORGANIZATIONNAME = "Forcepoint, LLC";
+				ORGANIZATIONNAME = "Apollo SOFTWARE";
 				TargetAttributes = {
 					27AFBBED232706ED00B1CBC6 = {
 						CreatedOnToolsVersion = 10.3;
@@ -284,14 +284,14 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C489D5E8E8;
+				DEVELOPMENT_TEAM = SJZPS3J9JV;
 				INFOPLIST_FILE = ScreenBlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.forcepoint.ScreenBlocker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apolloss.ScreenBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -304,14 +304,14 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C489D5E8E8;
+				DEVELOPMENT_TEAM = SJZPS3J9JV;
 				INFOPLIST_FILE = ScreenBlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.forcepoint.ScreenBlocker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apolloss.ScreenBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
