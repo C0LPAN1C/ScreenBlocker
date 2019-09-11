@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27AFBBF3232706ED00B1CBC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AFBBF2232706ED00B1CBC6 /* AppDelegate.m */; };
+		27AFBBF52327070000B1CBC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AFBBF42327070000B1CBC6 /* Assets.xcassets */; };
+		27AFBBF82327070000B1CBC6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AFBBF62327070000B1CBC6 /* MainMenu.xib */; };
+		27AFBBFB2327070000B1CBC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AFBBFA2327070000B1CBC6 /* main.m */; };
+		27F2DEA723273FC600F8137E /* FP_Blocked_Action.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F2DEA623273FC600F8137E /* FP_Blocked_Action.png */; };
+		27F2DEA92328496C00F8137E /* ScreenBlocker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 27F2DEA82328496C00F8137E /* ScreenBlocker.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27AFBBEE232706ED00B1CBC6 /* ScreenBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenBlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AFBBF1232706ED00B1CBC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27AFBBF2232706ED00B1CBC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27AFBBF42327070000B1CBC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27AFBBF72327070000B1CBC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		27AFBBF92327070000B1CBC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27AFBBFA2327070000B1CBC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27AFBBFC2327070000B1CBC6 /* ScreenBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScreenBlocker.entitlements; sourceTree = "<group>"; };
+		27F2DEA623273FC600F8137E /* FP_Blocked_Action.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FP_Blocked_Action.png; path = ScreenBlocker/res/FP_Blocked_Action.png; sourceTree = "<group>"; };
+		27F2DEA82328496C00F8137E /* ScreenBlocker.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ScreenBlocker.mm; sourceTree = "<group>"; };
+		27F2DEAA2328498E00F8137E /* ScreenBlocker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenBlocker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27AFBBEB232706ED00B1CBC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27AFBBE5232706ED00B1CBC6 = {
+			isa = PBXGroup;
+			children = (
+				27F2DEA623273FC600F8137E /* FP_Blocked_Action.png */,
+				27AFBBF0232706ED00B1CBC6 /* ScreenBlocker */,
+				27AFBBEF232706ED00B1CBC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27AFBBEF232706ED00B1CBC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27AFBBEE232706ED00B1CBC6 /* ScreenBlocker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27AFBBF0232706ED00B1CBC6 /* ScreenBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				27AFBBF1232706ED00B1CBC6 /* AppDelegate.h */,
+				27AFBBF2232706ED00B1CBC6 /* AppDelegate.m */,
+				27AFBBF42327070000B1CBC6 /* Assets.xcassets */,
+				27AFBBF62327070000B1CBC6 /* MainMenu.xib */,
+				27AFBBF92327070000B1CBC6 /* Info.plist */,
+				27AFBBFA2327070000B1CBC6 /* main.m */,
+				27AFBBFC2327070000B1CBC6 /* ScreenBlocker.entitlements */,
+				27F2DEA82328496C00F8137E /* ScreenBlocker.mm */,
+				27F2DEAA2328498E00F8137E /* ScreenBlocker.h */,
+			);
+			path = ScreenBlocker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27AFBBED232706ED00B1CBC6 /* ScreenBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AFBBFF2327070000B1CBC6 /* Build configuration list for PBXNativeTarget "ScreenBlocker" */;
+			buildPhases = (
+				27AFBBEA232706ED00B1CBC6 /* Sources */,
+				27AFBBEB232706ED00B1CBC6 /* Frameworks */,
+				27AFBBEC232706ED00B1CBC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenBlocker;
+			productName = ScreenBlocker;
+			productReference = 27AFBBEE232706ED00B1CBC6 /* ScreenBlocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27AFBBE6232706ED00B1CBC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Forcepoint, LLC";
+				TargetAttributes = {
+					27AFBBED232706ED00B1CBC6 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 27AFBBE9232706ED00B1CBC6 /* Build configuration list for PBXProject "ScreenBlocker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27AFBBE5232706ED00B1CBC6;
+			productRefGroup = 27AFBBEF232706ED00B1CBC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27AFBBED232706ED00B1CBC6 /* ScreenBlocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27AFBBEC232706ED00B1CBC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AFBBF52327070000B1CBC6 /* Assets.xcassets in Resources */,
+				27AFBBF82327070000B1CBC6 /* MainMenu.xib in Resources */,
+				27F2DEA723273FC600F8137E /* FP_Blocked_Action.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27AFBBEA232706ED00B1CBC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AFBBFB2327070000B1CBC6 /* main.m in Sources */,
+				27AFBBF3232706ED00B1CBC6 /* AppDelegate.m in Sources */,
+				27F2DEA92328496C00F8137E /* ScreenBlocker.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27AFBBF62327070000B1CBC6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27AFBBF72327070000B1CBC6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27AFBBFD2327070000B1CBC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		27AFBBFE2327070000B1CBC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		27AFBC002327070000B1CBC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ScreenBlocker/ScreenBlocker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C489D5E8E8;
+				INFOPLIST_FILE = ScreenBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forcepoint.ScreenBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27AFBC012327070000B1CBC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ScreenBlocker/ScreenBlocker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C489D5E8E8;
+				INFOPLIST_FILE = ScreenBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forcepoint.ScreenBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27AFBBE9232706ED00B1CBC6 /* Build configuration list for PBXProject "ScreenBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AFBBFD2327070000B1CBC6 /* Debug */,
+				27AFBBFE2327070000B1CBC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27AFBBFF2327070000B1CBC6 /* Build configuration list for PBXNativeTarget "ScreenBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AFBC002327070000B1CBC6 /* Debug */,
+				27AFBC012327070000B1CBC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27AFBBE6232706ED00B1CBC6 /* Project object */;
+}
